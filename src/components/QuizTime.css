@@ -1,0 +1,35 @@
+#select-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+label {
+  font-weight: 600;
+  color: darkgreen;
+}
+select {
+  color: darkgreen;
+  border-radius: 8px;
+  padding: 0.3em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+option {
+  background-color: rgba(0, 0, 0, 0.288);
+  font-weight: 600;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  border-radius: 8px;
+  color: #000000;
+}
+option:nth-child(1) {
+  background-color: #008000;
+}
+option:nth-child(2) {
+  background-color: #ffff00;
+}
+option:nth-child(3) {
+  background-color: #ff0000;
+}
