@@ -14,12 +14,3 @@ const QuizTime = ({ onChange }) => {
   );
 };
 export default QuizTime;
-
-{
-  /* <label for="amount-question">How time of quiz </label>
-          <select name="amount-question">
-            <option value="10">short</option>
-            <option value="20">medium</option>
-            <option value="30">long</option>
-          </select> */
-}
