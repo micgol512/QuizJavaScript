@@ -1,7 +1,5 @@
-import "../components/QuizTime.css";
+import "./QuizTime.css";
 const QuizTime = ({ onChange }) => {
-  console.log(onChange);
-
   return (
     <div id="select-wrapper">
       <label>Jak długi ma być test? </label>

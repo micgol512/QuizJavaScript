@@ -7,10 +7,10 @@
 }
 label {
   font-weight: 600;
-  color: darkgreen;
+  color: #006400;
 }
 select {
-  color: darkgreen;
+  color: #006400;
   border-radius: 8px;
   padding: 0.3em 1.2em;
   font-size: 1em;
@@ -18,9 +18,8 @@ select {
   font-family: inherit;
 }
 option {
-  background-color: rgba(0, 0, 0, 0.288);
   font-weight: 600;
-  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  text-shadow: 1px 1px 5px #000000;
   border-radius: 8px;
   color: #000000;
 }
